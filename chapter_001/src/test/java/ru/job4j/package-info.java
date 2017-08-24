@@ -1,5 +1,5 @@
 /**
-* PackageTest for Calculate #4122
+* PackageTest for Calculate #4122.
 *
 * @author Idergunov (mailto:idergunov058@yandex.ru)
 * @version $Id$

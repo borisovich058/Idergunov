@@ -1,7 +1,7 @@
 package ru.job4j;
 
 /**
-*Package for Calculate решение задачи #4087
+*Package for Calculate решение задачи #4087.
 *
 *@author Idergunov(idergunov058@yandex.ru)
 *@since 22.08.2017
@@ -9,7 +9,7 @@ package ru.job4j;
 
 public class Calculate {
 	/**
-	*Main
+	*Main.
 	*@param args - args.
 	*/
  public static void main(String[] args) {

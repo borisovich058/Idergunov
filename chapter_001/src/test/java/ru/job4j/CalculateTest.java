@@ -10,7 +10,7 @@ import static org.junit.Assert.assertThat;
  * Test.
  *
  * @author Idergunov (mailto:idergunov058@yadnex.ru)
- * @version $Id$ 
+ * @version $Id$
  * @since 0.1
  */
 public class CalculateTest {

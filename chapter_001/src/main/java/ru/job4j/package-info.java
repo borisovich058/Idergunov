@@ -1,5 +1,5 @@
 /**
-* Package for calculate #4087
+* Package for calculate #4087.
 *
 * @author Idergunov (mailto:idergunov058@yandex.ru)
 * @version $Id$
