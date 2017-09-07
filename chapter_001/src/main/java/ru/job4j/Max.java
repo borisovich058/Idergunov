@@ -16,12 +16,7 @@ public class Max {
 	*/
  public int max(int first, int second) {
 
- if (first < second) {
-	return second;
-	} else {
-
-	return first;
-    }
-  }
+	return first < second ? second : first;
+	}
 
 }
