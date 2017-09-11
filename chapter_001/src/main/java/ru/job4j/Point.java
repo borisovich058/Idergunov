@@ -57,7 +57,7 @@ public int getY() {
 *@return x - y - возвращает координаты.
 */
 public boolean is(int a, int b) {
-	return getY() == a * getX() + b ? true : false;
+	return this.y == this.x * a + b;
   }
 
 }
