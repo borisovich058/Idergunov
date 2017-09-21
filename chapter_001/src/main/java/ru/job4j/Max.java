@@ -12,11 +12,19 @@ public class Max {
 	*Метод max.
 	*@param first - значение один.
 	*@param second - значение два.
-	*@return first - если условия выполнены возвращает второе значение.
+	*@param third - третье значение.
+	*@return Возвращает максимальное значение из трех переданных.
 	*/
- public int max(int first, int second) {
-
-	return first < second ? second : first;
+	public int max(int first, int second, int third) {
+		return max(max(first, second), third);
 	}
-
+	/**
+	*Метод max.
+	*@param first - значение один.
+	*@param second - значение два.
+	*@return Возвращает максимальное значение из двух переданных.
+	*/
+	public int max(int first, int second) {
+		return first < second ? second : first;
+    }
 }
