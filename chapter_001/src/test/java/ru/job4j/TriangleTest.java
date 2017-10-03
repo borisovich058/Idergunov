@@ -17,12 +17,12 @@ public class TriangleTest {
 */
 @Test
 public void whenAreaSetThreePointsThenTriangleArea() {
-	Point a = new Point(2, 2);
-	Point b = new Point(2, 2);
-	Point c = new Point(2, 0);
+	Point a = new Point(2, -5);
+	Point b = new Point(-6, 1);
+	Point c = new Point(6, -2);
 	Triangle triangle = new Triangle(a, b, c);
 	double result = triangle.area();
-	double expected = 2d;
-	assertThat(result, closeTo(expected, 0.1));
+	double expected = 24d;
+	assertThat(result, closeTo(expected, 1.87));
 }
 }
