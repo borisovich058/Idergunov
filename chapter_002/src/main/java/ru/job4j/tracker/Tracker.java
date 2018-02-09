@@ -47,18 +47,8 @@ public class Tracker {
 
     private String generateId() {
         java.util.Date date = new Date();
-        /**
-         *  Объявляем пременную formatter и говорим, что переменная класса,
-         *  SimpleDateFormat должна строится на формает yyyyMMdd.
-         */
         SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd");
-        /**
-         * В строковую переменную format будем записывать нашу date,
-         * отформатированную по настроенному формату, форматированием
-         * занимается методо .format.
-         */
         String format = formatter.format(date);
-        //System.out.println(format);
         return String.valueOf(format + RN.nextInt());
     }
 
