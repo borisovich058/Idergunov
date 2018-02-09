@@ -44,7 +44,6 @@ public class Tracker {
      *
      * @return Уникальный ключ.
      */
-
     private String generateId() {
         java.util.Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd");
@@ -66,7 +65,6 @@ public class Tracker {
 
         }
     }
-
     /**
      * Метод может удалять заявки по id.
      *
@@ -100,7 +98,6 @@ public class Tracker {
         }
         return result;
     }
-
     /**
      * Метод возвращает копию массива this.items без null элементов;
      *
@@ -118,7 +115,6 @@ public class Tracker {
         }
         return items;
     }
-
     /**
      * Методо осуществляет поиск заявки по имени.
      * @param key - ключ.
@@ -147,7 +143,6 @@ public class Tracker {
             }
             return tmp;
     }
-
     /**
      * Метод возваращает все завявки.
      * @return результат.
